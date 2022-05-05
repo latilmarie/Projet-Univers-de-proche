@@ -2,7 +2,6 @@
 
 
 **Programme Python trajectoire_theorique.py
-
 Code qui permet de tracer la trajectoire théorique d’une bille avec une masse centrale de 3kg et les
 conditions initiales utilisées expérimentalement.
 
