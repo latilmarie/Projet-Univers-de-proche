@@ -7,11 +7,11 @@ def nothing(x):
     pass
 
 # read first frame
-cap0 = cv2.VideoCapture('C:/Users/azizb/Desktop/Cours/semestre2/projet/Nouveau dossier/videos/1_noir.mp4')
+cap0 = cv2.VideoCapture('2_billes_3kg_noir.mp4')
 ret0, frame0 = cap0.read()
 
 
-cap = cv2.VideoCapture('C:/Users/azizb/Desktop/Cours/semestre2/projet/Nouveau dossier/videos/1_noir.mp4')
+cap = cv2.VideoCapture('2_billes_3kg_noir.mp4')
 cap.set(3,1280)
 cap.set(4,720)
 ret, frame = cap.read()
