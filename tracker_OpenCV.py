@@ -24,7 +24,7 @@ liste1 = [[],[]]
 liste2 = [[],[]]
 
 
-vs = cv2.VideoCapture('C:/Users/azizb/Desktop/Cours/semestre2/projet/Nouveau dossier/videos/2kg/1_bille_2kg_noir.mp4')
+vs = cv2.VideoCapture('2_billes_3kg_noir.mp4')
 
 frameTime = 100
 shape=(460,600)
