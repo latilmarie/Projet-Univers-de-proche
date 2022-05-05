@@ -17,14 +17,14 @@ Lower_blue = (103, 29, 0)
 Upper_blue = (255, 255, 255) 
 
 # get back_frame
-cap0 = cv2.VideoCapture('C:/Users/azizb/Desktop/Cours/semestre2/projet/Nouveau dossier/videos/1_noir.mp4')
+cap0 = cv2.VideoCapture('2_billes_3kg_noir.mp4')
 ret0, frame0 = cap0.read()
 
 # queue to put the coordinates of the ball
 pts = deque()
 pts1 = deque()
 
-cap = cv2.VideoCapture('C:/Users/azizb/Desktop/Cours/semestre2/projet/Nouveau dossier/videos/1_noir.mp4')
+cap = cv2.VideoCapture('2_billes_3kg_noir.mp4')
 
     
 # allow the video file to warm up
