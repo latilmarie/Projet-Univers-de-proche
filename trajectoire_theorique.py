@@ -24,7 +24,7 @@ distance0 = 188.22          # rayon de la position de départ, en pixels
 alpha0 = 0.657 - pi         # coordonnée polaire de la position initiale
 vx0 = -90.91                # vitesse initiale selon axe x, en pixels
 vy0 = 363.64                # vitesse initiale selon axe y, en pixels
-f = 0.8                     # coefficient de frottement
+f = 0.3                     # coefficient de frottement
 disk = 0.08                 # rayon de la masse centrale
 
 dt = 0.033                  # pas de temps (frame utilisée sur le traitement vidéo)
